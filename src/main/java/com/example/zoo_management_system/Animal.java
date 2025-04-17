@@ -2,23 +2,11 @@ package com.example.zoo_management_system;
 
 public class Animal {
 
-    //Task 1: Create the Base Class Animal
-    //Properties (all private):
-    //name (String)
-    //age (int)
-    //type (String – e.g. "Mammal", "Bird")
-
     private String name;
     private int age;
     private String type;
 
-
-    //Encapsulate with:
-    //getName(), getAge(), getType()
-    //setAge() with validation (must be > 0)
-
     //Getters
-
     public String getName() {
         return name;
     }
@@ -46,10 +34,10 @@ public class Animal {
             this.age = age;
         }
     }
+
     //Method: makeSound() – just System.out.println("Some generic animal sound")
     public void makeSound() {
         System.out.println("Some generic animal sound");
     }
-
 }
 

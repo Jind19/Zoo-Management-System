@@ -10,10 +10,3 @@ public class Parrot extends Animal {
         System.out.println("Squawk! I'm a Parrot!");
     }
 }
-
- /*
-Task 4: Create Class Parrot that extends Animal
-Constructor: set type to "Bird"
-Override makeSound() → "Squawk! I'm a Parrot!"
-
- */

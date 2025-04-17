@@ -13,8 +13,24 @@ public class Zoo {
 
     //Add method showAllAnimals() to print name + type of each animal
     public void showAllAnimals() {
+        System.out.println("Zoo Animals:");
         for (Animal animal : animalList) {
-            System.out.println("Its a " + animal.getName() + " and it's " +  animal.getType());
+            System.out.println("- " + animal.getName() + " ( " +  animal.getType() + " )");
         }
     }
+
+    public void simulateAnimalSounds(){
+        System.out.println("Animal Sounds:");
+        for (Animal animal : animalList) {
+            animal.makeSound();
+        }
+    }
+
+    public void feedAllAnimals(){
+        for (Animal animal : animalList) {
+            System.out.println("Feeding " + animal.getName() + " food");
+        }
+    }
+
+
 }
