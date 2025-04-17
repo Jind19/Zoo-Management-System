@@ -17,5 +17,4 @@ public class Zoo {
             System.out.println("Its a " + animal.getName() + " and it's " +  animal.getType());
         }
     }
-
 }

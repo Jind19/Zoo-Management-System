@@ -18,6 +18,4 @@ public class Main {
         zoo.addAnimal(animal4);
         zoo.showAllAnimals();
     }
-
-
 }

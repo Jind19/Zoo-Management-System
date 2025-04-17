@@ -47,8 +47,9 @@ public class Animal {
         }
     }
     //Method: makeSound() – just System.out.println("Some generic animal sound")
-    public static void makeSound() {
+    public void makeSound() {
         System.out.println("Some generic animal sound");
     }
+
 }
 
